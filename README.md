@@ -1,19 +1,15 @@
-# Docker-Symfony starter framework
+# Docker for PHP framework
 
-To deploy this project enter in terminal:
+To start project:
 ```
-git clone https://github.com/amb-it/docker-symfony.git && cd docker-symfony/docker && docker-compose up
-```
-
-after all Docker containers are up install Symfony dependecies with Composer:
-```
-cd ../src && composer install
+make up
 ```
 
-or if you do not have local Composer, enter to php-fpm container :
+To install PHP framework with Composer enter to php-fpm container:
 ```
-docker exec -it php_fpm_container sh
+make enter-php-container
 ```
-and inside it enter: ``` composer install ```
 
-After that you can check project by visiting in your browser http://localhost
+and follow installation instructions of chosen framework, f.e.: 
+- Laravel ( [https://laravel.com/docs/master/installation](https://laravel.com/docs/master/installation) )
+- Symfony ( [https://symfony.com/doc/current/setup.html](https://symfony.com/doc/current/setup.html) )
