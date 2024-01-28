@@ -5,14 +5,14 @@ To start project:
 make up
 ```
 
-To install PHP framework with Composer enter to php-fpm container:
+To install PHP framework with Composer enter php-fpm container:
 ```
 make enter-php-container
 ```
 
-remove everything from 'src' directory:
+Clear 'src' directory from php-fpm container :
 ```
-rm -rf src/
+rm .gitignore
 ```
 
 and to install preferred framework into 'src' directory follow installation instructions of chosen framework, f.e.: 
