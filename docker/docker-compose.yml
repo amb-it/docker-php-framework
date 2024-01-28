@@ -8,8 +8,8 @@ services:
       context: ./php-fpm
     volumes:
       - ../src:/var/www
-#      - ./php-fpm/init.sh:/usr/local/bin/init.sh
-  #    command: /usr/local/bin/init.sh
+      - ./php-fpm/init.sh:/usr/local/bin/init.sh
+    command: /usr/local/bin/init.sh
   #    command: composer install
 
 
