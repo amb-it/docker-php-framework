@@ -5,6 +5,15 @@ To start project:
 make up
 ```
 
+To check if PHP is working open in browser http://localhost
+
+### PHP framework installation
+
+Clear 'src' directory:
+```
+rm -rf src/
+```
+
 To install PHP framework with Composer enter php-fpm container:
 ```
 make enter-php-container
