@@ -18,9 +18,9 @@ rm .gitignore
 and to install preferred framework into 'src' directory from php-fpm container follow installation instructions of chosen framework, f.e.: 
 - Laravel ( [https://laravel.com/docs/master/installation](https://laravel.com/docs/master/installation) )
   ```
-  composer create-project laravel/laravel *
+  composer create-project laravel/laravel .
   ```
 - Symfony ( [https://symfony.com/doc/current/setup.html](https://symfony.com/doc/current/setup.html) )
   ```
-  composer create-project symfony/skeleton:"7.0.*" *
+  composer create-project symfony/skeleton:"7.0.*" .
   ```
