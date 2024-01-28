@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rm .gitignore
+echo "Hello World from init.sh"

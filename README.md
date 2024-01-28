@@ -10,6 +10,17 @@ To install PHP framework with Composer enter to php-fpm container:
 make enter-php-container
 ```
 
-and follow installation instructions of chosen framework, f.e.: 
+remove everything from 'src' directory:
+```
+rm -rf src/
+```
+
+and to install preferred framework into 'src' directory follow installation instructions of chosen framework, f.e.: 
 - Laravel ( [https://laravel.com/docs/master/installation](https://laravel.com/docs/master/installation) )
+  ```
+  composer create-project laravel/laravel src
+  ```
 - Symfony ( [https://symfony.com/doc/current/setup.html](https://symfony.com/doc/current/setup.html) )
+  ```
+  composer create-project symfony/skeleton:"7.0.*" src
+  ```
